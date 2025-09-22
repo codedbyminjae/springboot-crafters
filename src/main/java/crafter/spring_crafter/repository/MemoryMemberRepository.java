@@ -1,6 +1,7 @@
-package crafter.repository;
+package crafter.spring_crafter.repository;
 
-import crafter.domain.Member;
+import crafter.spring_crafter.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 

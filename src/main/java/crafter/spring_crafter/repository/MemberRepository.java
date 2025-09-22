@@ -1,6 +1,6 @@
-package crafter.repository;
+package crafter.spring_crafter.repository;
 
-import crafter.domain.Member;
+import crafter.spring_crafter.domain.Member;
 
 import java.util.List;
 import java.util.Optional;

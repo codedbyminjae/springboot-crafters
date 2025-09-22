@@ -1,8 +1,8 @@
 package crafter.service;
 
-import crafter.domain.Member;
-import crafter.repository.MemoryMemberRepository;
-import org.assertj.core.api.Assertions;
+import crafter.spring_crafter.domain.Member;
+import crafter.spring_crafter.repository.MemoryMemberRepository;
+import crafter.spring_crafter.service.MemberService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
