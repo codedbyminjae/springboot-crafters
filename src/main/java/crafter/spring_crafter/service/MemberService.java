@@ -1,8 +1,9 @@
-package crafter.service;
+package crafter.spring_crafter.service;
 
-import crafter.domain.Member;
-import crafter.repository.MemberRepository;
-import crafter.repository.MemoryMemberRepository;
+import crafter.spring_crafter.domain.Member;
+import crafter.spring_crafter.repository.MemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;

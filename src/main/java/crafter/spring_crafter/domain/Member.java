@@ -1,4 +1,4 @@
-package crafter.domain;
+package crafter.spring_crafter.domain;
 
 public class Member {
 
