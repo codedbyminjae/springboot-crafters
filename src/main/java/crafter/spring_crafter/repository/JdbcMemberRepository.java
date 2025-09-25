@@ -1,7 +1,9 @@
 package crafter.spring_crafter.repository;
 
 import crafter.spring_crafter.domain.Member;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DataSourceUtils;
+import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -9,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class JdbcMemberRepository implements MemberRepository {
     private final DataSource dataSource;
 

@@ -1,4 +1,4 @@
-package crafter.service;
+package crafter.spring_crafter.service;
 
 import crafter.spring_crafter.domain.Member;
 import crafter.spring_crafter.repository.MemoryMemberRepository;
